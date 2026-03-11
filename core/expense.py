@@ -1,10 +1,10 @@
 from dataclasses import dataclass
-from domain_error import *
 from datetime import date
 
 from core.domain_error import (
     InvalidAmountError,
     InvalidExpenseDateError,
+    EmptyTitleError,
 )
 
 
