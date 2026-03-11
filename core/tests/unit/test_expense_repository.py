@@ -63,4 +63,4 @@ def test_get_by_id_returns_none_if_not_found():
     repo.save(create_expense())
     repo.save(create_expense(2, "setensa", 20))
     repo.save(create_expense(3, "setensó", 34))
-    assert repo.get_by_id(9) == None
+    assert repo.get_by_id(9) is None

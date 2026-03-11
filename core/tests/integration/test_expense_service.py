@@ -1,5 +1,4 @@
 from datetime import date
-from core.expense import Expense
 from core.expense_service import ExpenseService
 from core.no_tocar.sqlite_expense_repository import SQLiteExpenseRepository
 
