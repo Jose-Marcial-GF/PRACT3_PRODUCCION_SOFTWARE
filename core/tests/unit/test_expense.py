@@ -20,7 +20,7 @@ def test_create_valid_expense():
     )
 
     assert expense.title == "Comida"
-    assert expense.amount == 10.5
+    assert expense.amount == 10.5 
 
 
 def test_empty_title_raises_error():
